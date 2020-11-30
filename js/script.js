@@ -1,15 +1,3 @@
-$(document).ready(function(){
-	$('a.photo').zoom({url: 'log.jpg'});
-});
-
-$(document).ready(function(){
-	$('a.photo').zoom({
-		url: 'log.jpg', 
-		callback: function(){
-			$(this).colorbox({href: this.src});
-		}
-	});
-});
 //Animation 1
 $('.anim1').hover(function(){
 	$('.parts_bg').toggleClass('parts_bg-anim anim_sets')
@@ -34,42 +22,42 @@ $(function(){
 // Slider
 $(document).ready(function(){
 	$('.stages_slider').owlCarousel({
-    loop:true,
-    margin:20,
-    nav:true,
-    dots:false,
-    responsive:{
-        0:{
-            items:1
-        },
-        600:{
-            items:1
-        },
-        1000:{
-            items:1
+        loop:true,
+        margin:20,
+        nav:true,
+        dots:false,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:1
+            },
+            1000:{
+                items:1
+            }
         }
-    }
-})
+    })
 });
 $(document).ready(function(){
 	$('.members_slider').owlCarousel({
-    loop:true,
-    margin:20,
-    nav:true,
-    dots:false,
-    items:4,
-    responsive:{
-        650:{
-            items:2
-        },
-        768:{
-            items:3
-        },
-        1000:{
-            items:4
-        },
-    }
-})
+        loop:true,
+        margin:20,
+        nav:true,
+        dots:false,
+        items:4,
+        responsive:{
+            650:{
+                items:2
+            },
+            768:{
+                items:3
+            },
+            1000:{
+                items:4
+            },
+        }
+    })
 });
 
 // Popup
@@ -91,8 +79,8 @@ $('.image-link').magnificPopup({
       // openerElement is the element on which popup was initialized, in this case its <a> tag
       // you don't need to add "opener" option if this code matches your needs, it's defailt one.
       return openerElement.is('img') ? openerElement : openerElement.find('img');
-    }
   }
+}
 
 });
 
@@ -104,4 +92,15 @@ $('.order_btn').hover(function(){
 
 $('.watch__more').on('click',function(){
 	$('.dropdown__menu').toggleClass('d-none')
+});
+
+// $('.').click(function(){
+//     $('.').addClass("");
+//     $('.').removeClass("");
+//     $('.').addClass("");
+// });
+
+$('.menubtn').click(function(){
+
+    $('.a-menu').toggleClass('db dn');
 });

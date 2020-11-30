@@ -1,314 +1,132 @@
-@media (max-width: 1530px) {
-	.anim2{
-		overflow: hidden;
-	}
-	.centermain h1{
-		white-space: nowrap;
-		z-index: 100;
-		position: relative;
-	}
-	.mybtn{
-		white-space: nowrap;
-	}
-	.fourth__block-adaptive{
+@media (max-width: 1440px){
+
+}
+@media (max-width: 768px){
+	.a-dn{
 		display: none;
 	}
-}
-@media (max-width: 1375px){
-	.dev-stages .owl-nav{
-		top: -650px;
-	}
-	.our_team .owl-nav{
-		top:-700px;
-	}
-}
-@media (max-width: 1245px){
-	.dev-stages .owl-nav{
-		top: -615px;
-	}
-
-}
-@media (max-width: 1205px){
-	header ul li+li{
-		margin-left: 25px;
-	}
-	header .social{
-		min-width: 88px;
-	}
-	.our_team .owl-nav{
-		top: -637px;
-	}
-}
-@media (max-width: 1175px){
-	.dev-stages .owl-nav{
-		top: -588px;
-	}
-}
-@media (max-width: 1100px){
-	/*.mybtn{
-		font-size: 18px;
-	}*/
-	.centermain h1{
-		font-size: 52px;
-	}
-	.porfoliobtn{
-		font-size: 24px;
-	}
-}
-@media (max-width: 1060px){
-	.dev-stages .owl-nav{
-		top: -545px;
-	}
-}
-@media (max-width: 1024px){
-	.anim1 img{
-
-	}
-	.freeconsult{
-		font-size: 30px;
-	}
-	.works_inner img{
-		height: auto !important	;
-	}
-	.works_inner .col-6 img, .works_inner .col-12 img{
-		width: 100%;	
-	}
-	.thrd_block .col-6{
-		flex: 0 0 100% !important;
-		max-width: 100%;
-	}
-	.thrd_block .col-3{
-		flex: 0 0 50% !important;
-		max-width: 50%;
-	}
-	.thrd_block .col-6 img{
-		width: 100%;	
-	}
-	.thrd_block{
-		height: auto;
-	}
-	.fourth_block{
-		display: none;	
-	}
-	.fourth__block-adaptive{
+	.a-db{
 		display: block;
 	}
-	.fourth__block-adaptive img{
-		max-width: 100%;
-		height: 395px;	
+	.a-flex{
+		display: flex;
 	}
-	.scnd_block h6{
-		font-size: 34px;
+	h1{
+		font-size: 40px;
 	}
-}
-@media (max-width: 999px){
-	.our_team .owl-nav{
-		top: -685px;
+	h6{
+		font-size: 15px;
 	}
-}
-@media (max-width: 991px){
-	.dev-stages .owl-nav{
-		top: -575px;
+	p{
+		font-size: 12px;
 	}
-}
-@media (max-width: 957px){
-	.stage_img img{
-		height: 100%;
+
+	.ordercall .phone{
+		margin-top: 3px;
+		font-weight: 600;
+		font-size: 20px;
 	}
-}
-@media (max-width: 892px){
-	.our_team .owl-nav{
-		top: -636px;
+	.social a+a{
+		margin-left: 18px;
 	}
-}
-	
-@media (max-width: 768px){
-	.centermain h1{
-		font-size: 46px;
-	}
-	.mybtn{
-		font-size: 22px;
-		line-height: 48px;
+	.mainpage .mybtn{
+		font-size: 16px;
+		padding: 8px 16px;
 	}
 	.porfoliobtn{
-		display: none;
+		font-size: 16px;
+		margin-left: 10px;
 	}
-	.second h1{
-		font-size: 46px !important;
+	.problems_bg p{
+		font-size: 12px;
 	}
-	.second h6{
-		margin-top: 40px;
-	}
-	.problems_inner .wrapper{
-		flex-direction: column;
-	}
-	.block-1,.block-2,.block-3,.block-4{
-		width: 100% !important;
+	.problems_bg h5{
 		font-size: 14px;
 	}
-	.freeconsult{
+	.problems_bg h6{
+		font-weight: 600;
+	}
+	.second .wrapper{
+		margin-top: 0;
+	}
+	.block-1, .block-2, .block-3, .block-4 {
+		margin-top: 60px;
+	}
+	.freeconsult a{
 		font-size: 16px;
-	}
-	.problems_inner, .anim2{
-		padding: 0;
-	}
-	.scr1{
-		top: 348px;
-		width: 400px;
-		left: 18px;
-	}
-	.scrx{
-		width: 150px;
-		top: 127px;
-	}
-	.scr2{
-		width: 400px;
-		top: -12px;
-		left: 56px;
-	}
-	.list{
-		display: flex;
-		flex-direction: column;
-	}
-	.list .col-4{
-		flex:0 0 100%;
-		max-width: 100%;
-	}
-	.order__img-wrap{
-		background-position: 58% bottom;
-	}
-	.order__img-wrap-hoverr{
-		background-position: 58% bottom !important;
-	}
-	.list div h3{
-		margin-top: 80px;
-	}
-	.owl-item .row{
-		display: flex !important;
-		flex-direction: column !important;
-	}
-	.owl-item .row .col-6{
-		flex:0 0 100%;
-		max-width: 100%;
-	}
-	.owl-next{
-		display: none !important;
-	}
-	.stages_title h3{
-		font-size: 52px;
-	}
-	.dev-stages_bg{
-		height: auto;
-	}
-	.slider_stage{
-		padding: 20px 0 0 50px;
-	}
-	.about-us_info{
-		flex-direction: column;
-	}
-	.about-us_info .col-6{
-		flex:0 0 100%;
-		max-width: 100%;
-	}
-	.certificates{
-		display: inline-flex;
-	}
-	.certificate img{
-		max-width: 100%
-	}
-	.contact_us{
-		font-size: 30px;
-	}
-}
-@media (max-width: 650px){
-	.first_block .col-6{
-		flex:0 0 100%;
-		max-width: 100%;
-		padding-bottom: 15px;
-	}
-	.thrd_block .col-3{
-		flex:0 0 100% !important;
-		max-width: 100%;
-		padding-bottom: 15px;
-	}
-	.fourth__block-adaptive .col-6{
-		flex:0 0 100%;
-		max-width: 100%;
-		padding-bottom: 15px;
 	}
 	.scnd_block-info{
-		display: flex;
-		flex-direction: column;
+		display: block;
 	}
-	.scnd_block-info div,.scnd_block-info p{
-		width: 100% !important;
-	}
-	.first_block{
-		padding-bottom: 15px;
-	}
-	.scnd_block{
-		padding-bottom: 15px;
-	}
-	.thrd_block, .thrd_block .col-6{
-		padding-bottom: 15px;
-	}
-	.fourth__block-adaptive, .fourth__block-adaptive .col-12{
-		padding-bottom: 15px;
-	}
-	.watch__more{
-		padding-bottom: 15px;
-	}
-	.stages_title h3{
-		font-size: 36px;
-	}
-	.stages_title img{
-		width: 86px;
-	}
-	.about-us_info h6{
-		white-space: nowrap;
-		font-size: 22px;
-	}
-}
-@media (max-width: 510px){
-	.second h1{
-		font-size: 36px !important;
-	}
-	.second h6{
-		font-size: 16px;
-	}
-	.block-1,.block-2,.block-3,.block-4{
-		margin-top: 30px;
-	}
-	.pricelist h2{
-		font-size: 50px;
-	}
-	.stages_title h3{
+	.scnd_block h6{
 		font-size: 28px;
 	}
-	.slider_title{
-		font-size: 26px;
+	.scnd_block p{
+		font-weight: 400;
+		font-size: 18px;
+		width: 100%;
 	}
-	.stages_title h3{
-		font-size: 30px;
+	.scnd_block h6{
+		font-size: 20px;
 	}
-}
-@media (max-width: 410px){
-	.second h1{
-		font-size: 30px !important;
+	.pricelist h3{
+		font-size: 15px !important;
 	}
-	.stages_title h3{
+	.cost {
+		font-weight: 700;
+		font-size: 15px;
+		margin-top: -3px;
+		padding-top: 8px;
+	}
+	.cost span{
 		font-size: 25px;
 	}
-	.about-us_info h6{
-		white-space: nowrap;
-		font-size: 18px;
-	}
 }
-@media (max-width: 350px){
-	.second h1{
-		font-size: 26px !important;
+@media (max-width: 320px){
+	.mainlogo{
+		width: 106px;
 	}
-	.stages_title h3{
-		font-size: 20px;
+	.a-dn-m{
+		display: none;
+	}
+	.a-db-m{
+		display: block;
+	}
+
+	.social {
+		display: flex;
+	}
+	.menubtn{
+		width: 25px;
+		height: 21px;
+		background-size: 80%;
+		margin-left: 11px;
+		margin-top: 5px;
+	}
+	h1{
+		font-size: 30px;
+	}
+	h6{
+		font-size: 12px;
+	}
+	p{
+		font-size: 10px !important;
+		line-height: 13px !important;
+	}
+	.mainpage .mybtn{
+		font-size: 12px;
+		z-index: 50;
+	}
+	.porfoliobtn{
+		font-size: 16px;
+		margin-left: 10px;
+	}
+	.col6tocol12{
+		flex: 0 0 100% !important;
+		max-width: 100% !important;
+	}
+	.freeconsult {
+		margin: 0 !important;
+		text-align: center;
 	}
 }

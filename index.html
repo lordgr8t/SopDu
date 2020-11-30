@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>www</title>
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/fonts.css">
 	<link rel="stylesheet" href="css/owl.carousel.min.css">
 	<link rel="stylesheet" href="css/owl.theme.default.css">
@@ -17,38 +17,73 @@
 		<header class="container">
 			<nav class="d-flex jcsb ">
 				<a href="https://sopdu.org/">
-					<img src="img/logo.png"/>
+					<img class="mainlogo" src="img/logo.png"/>
 				</a>
 				<ul class="d-flex jcsb gray18 m-0">
-					<li><img src="img/map pin.png" alt="" class="location"><a href="#">Санкт-петербург</a></li>
-					<li><a href="#">Проекты</a></li>
-					<li><a href="#">Услуги</a></li>
-					<li><a href="#">О нас</a></li>
-					<li><a href="#">Контакты</a></li>
+					<li class="a-dn"><img src="img/map pin.png" alt="" class="location"><a href="#">Санкт-петербург</a></li>
+					<li class="a-dn"><a href="#">Проекты</a></li>
+					<li class="a-dn"><a href="#">Услуги</a></li>
+					<li class="a-dn"><a href="#">О нас</a></li>
+					<li class="a-dn"><a href="#">Контакты</a></li>
 				</ul>
 				<div class="social">
 					<a href="#"><img src="img/social/VK-Logo.png" /></a>
 					<a href="#"><img src="img/social/Inst-logo.png" /></a>
 					<a href="#"><img src="img/social/WhatsApp-Logo.png" /></a>
 				</div>
-				<div class="ordercall gray18">
-					<a href="#" class="phone">+7 981 973-00-47</a><br></br>
-					<a href="#" class="order">Заказать звонок</a>
+				<div class="ordercall gray18 a-flex">
+					<a href="#" class="phone a-dn-m">+7 981 973-00-47</a><br>
+					<a href="#" class="order a-dn">Заказать звонок</a>
+					<div class="menubtn"></div>
+
 				</div>
 				<div class="header_dropdown">
 					
 				</div>
 			</nav>
 		</header>
+
+		<div class="a-menu">
+			
+			<ul>
+				<li><hr><a href="#">Санкт-Петербург</a><hr></li>
+				<li class="mb-3"><a href="#">Проекты</a></li>
+				<li class="mb-3"><a href="#">Услуги</a></li>
+				<li class="mb-3"><a href="#">О нас</a></li>
+				<li class="mb-3"><a href="#">Контакты</a></li>
+			</ul>
+
+			<div class="a-menu_white">
+				<div class="d-flex jcsa">
+					<a href="#"><img src="img/social/VK-Logo.png"></a>
+					<a href="#"><img src="img/social/Inst-logo.png"></a>
+					<a href="#"><img src="img/social/WhatsApp-Logo.png"></a>
+				</div>
+				<div class="mybtn mt-5 mb-5"><a href="#">Рассчитать стоимость!</a></div>
+				<div class="d-flex jcsb">
+					<a href="#">my@sopdu.org</a>
+					<div>
+						<a href="call:+7 981 973-00-47">+7 981 973-00-47</a><br>
+						<a class="ttu" href="#">Заказать звонок</a>
+					</div>
+				</div>
+			</div>
+
+
+
+		</div>
+
+
 		<div class="container centermain row m0a">
+			<img src="img/scroll.svg" class="scrollit a-dn">
 			<div class="col-6 p-0">
 				<h6 class="white">Веб-разработка</h6>
 				<h1 class="white">Продающие <br/>сайты для бизнеса</h1>
 				<p class="gray18">Упаковываем проект полностью, продумываем каждую деталь в процессе проектированаия проекта и подсчета стоимости. Всегда рассматриваем поэтапный запуск проета, мы считаем каждый проект начинаеться с малого.</p>
 				<div class="d-flex aic row">
-					<div class="mybtn col-8"><a href="#">Рассчитать стоимость!</a></div>
-					<div class="col-4 d-flex justify-content-center">
-					<a href="#" class="porfoliobtn">Портфолио</a>
+					<div class="mybtn"><a href="#">Рассчитать стоимость!</a></div>
+					<div class="col-4 d-flex justify-content-center" style="z-index: 10">
+						<a href="#" class="porfoliobtn a-dn-m">Портфолио</a>
 					</div>
 				</div>
 				<div class="answered">Ответим в течении 30 минут!</div>
@@ -65,32 +100,32 @@
 
 	<div class="problems_bg m0a">
 		<div class="row container m0a problems_inner no_padd">
-			<div class="col-6">
+			<div class="col-6 col6tocol12">
 				<div class="second container">
 					<h6>Действительно ли вам нужен сайт?</h6>
-					<h1 style="font-size: 62px"><span>4 проблемы,</span> которые<br/> решит новый сайт</h1>
+					<h1><span>4 проблемы,</span> которые<br/> решит новый сайт</h1>
 					<div class="wrapper row d-flex">
 						<div class="block-1">
 							<h5>Недостаточно продаж</h5>
-							<div>Сайты от Sopdu проектируются под вашу потенциальную аудиторию.</div>
+							<p>Сайты от Sopdu проектируются под вашу потенциальную аудиторию.</p>
 						</div>
 						<div class="block-2">
 							<h5>Имидж</h5>
-							<div>Повысим стоимость вашего продукта продуманным дизайном</div>
+							<p>Повысим стоимость вашего продукта продуманным дизайном</p>
 						</div>
 						<div class="block-3">
 							<h5>Присутствие</h5>
-							<div>После Карантина каждый конкурент перешел в онлайн, а вы еще нет? Пора!</div>
+							<p>После Карантина каждый конкурент перешел в онлайн, а вы еще нет? Пора!</p>
 						</div>
 						<div class="block-4">
 							<h5>Выгода</h5>
-							<div>Продажа в интернете дешевле и эффективнее других каналов</div>
+							<p>Продажа в интернете дешевле и эффективнее других каналов</p>
 						</div>
 					</div>
 					<h3  class="freeconsult"><a href="#">Бесплатная консультация</a></h3>
 				</div>
 			</div>
-			<div class="col-6 anim2">
+			<div class="col-6 anim2 a-dn-m">
 				<img src="img/animations/scr1.png" class="scr1">
 				<img src="img/animations/scrx.png" class="scrx">
 				<img src="img/animations/scr2.png" class="scr2">
@@ -101,12 +136,12 @@
 	<div class="works_bg m0a">
 		<div class="works_inner container m0a">
 			<p class="works__title">Работы Sopdu</p>
-			<h4 style="font-size: 62px; color: #fff">Проекты</h4>
+			<h1 style="font-weight: 700; color: #fff">Проекты</h1>
 			<div class="first_block row no_padd">
 				<div class="col-6">
 					<a href="#">
 						<img src="img/works/Rectangle 47.png" alt="work">
-						<span class="resource">Интернет-магазин</span>
+						<div class="resource">Интернет-магазин</div>
 						<h6>Магазин</h6>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat nihil nostrum reprehenderit eos accusantium nisi eligendi</p>
 					</a>
@@ -114,7 +149,7 @@
 				<div class="col-6">
 					<a href="#">
 						<img src="img/works/Rectangle 48.png" alt="work">
-						<span class="resource">Интернет-магазин</span>
+						<div class="resource">Интернет-магазин</div>
 						<h6>Магазин</h6>
 						<p>Lorem, ipsum dolor sit, amet consectetur adipisicing elit. Quod doloribus fuga deserunt accusantium iure aut corporis odit</p>
 					</a>
@@ -124,11 +159,11 @@
 				<div class="col-12">
 					<a href="#">
 						<img src="img/works/Rectangle 49.png" alt="work">
+						<div class="resource">Интернет-магазин</div>
 						<div class="scnd_block-info">
-							<div>
-								<span class="resource_big">Интернет-магазин</span>
-								<h6>Департамент здравоохранения Москвы</h6>
-							</div>
+
+							<h6>Департамент здравоохранения Москвы</h6>
+
 							<p>Научное учреждение в системе Департамента здравоохранения города Москвы, которое стало преемником Московского научно-исследовательского института медицинской экологии.</p>
 						</div>
 					</a>
@@ -138,7 +173,7 @@
 				<div class="col-6">
 					<a href="#">
 						<img src="img/works/Rectangle 48.png" alt="work">
-						<span class="resource">Интернет-магазин</span>
+						<div class="resource">Интернет-магазин</div>
 						<h6>Магазин</h6>
 						<p>Популярное агенство недвижимости в подмосковье выполняет полный комплекс работ по покупке и продаже недвижимости</p>
 					</a>
@@ -146,14 +181,14 @@
 				<div class="col-3">
 					<a href="#">
 						<img src="img/works/Rectangle 47.png" alt="work">
-						<span class="resource">Интернет-магазин</span>
+						<div class="resource">Интернет-магазин</div>
 						<h6>Магазин</h6>
 					</a>
 				</div>
 				<div class="col-3">
 					<a href="#">
 						<img src="img/works/Rectangle 47.png" alt="work">
-						<span class="resource">Интернет-магазин</span>
+						<div class="resource">Интернет-магазин</div>
 						<h6>Магазин</h6>
 					</a>
 				</div>			
@@ -162,14 +197,14 @@
 				<div class="col-3">
 					<a href="#">
 						<img src="img/works/Rectangle 47.png" alt="work">
-						<span class="resource">Интернет-магазин</span>
+						<div class="resource">Интернет-магазин</div>
 						<h6>Магазин</h6>
 					</a>
 				</div>
 				<div class="col-6">
 					<a href="#">
 						<img src="img/works/Rectangle 48.png" alt="work">
-						<span class="resource">Интернет-магазин</span>
+						<div class="resource">Интернет-магазин</div>
 						<h6>Магазин</h6>
 						<p>Портал для подбора новостроек и вторичного жилья в Москве и Санкт-Петербурге, 2000+ новостроек и 3000 вотричного жилья</p>	
 					</a>
@@ -177,7 +212,7 @@
 				<div class="col-3">
 					<a href="#">
 						<img src="img/works/Rectangle 47.png" alt="work">
-						<span class="resource">Интернет-магазин</span>
+						<div class="resource">Интернет-магазин</div>
 						<h6>Магазин</h6>
 					</a>
 				</div>
@@ -186,31 +221,31 @@
 				<div class="col-12">
 					<a href="#">
 						<img src="img/works/Rectangle 48.png" alt="work">
-						<span class="resource">Интернет-магазин</span>
+						<div class="resource">Интернет-магазин</div>
 						<h6>Магазин</h6>
 						<p>Портал для подбора новостроек и вторичного жилья в Москве и Санкт-Петербурге, 2000+ новостроек и 3000 вотричного жилья</p>	
 					</a>
 				</div>
 				<div class="row">
-				<div class="col-6">
-					<a href="#">
-						<img src="img/works/Rectangle 47.png" alt="work">
-						<span class="resource">Интернет-магазин</span>
-						<h6>Магазин</h6>
-					</a>
-				</div>
-				<div class="col-6">
-					<a href="#">
-						<img src="img/works/Rectangle 47.png" alt="work">
-						<span class="resource">Интернет-магазин</span>
-						<h6>Магазин</h6>
-					</a>
-				</div>
+					<div class="col-6">
+						<a href="#">
+							<img src="img/works/Rectangle 47.png" alt="work">
+							<div class="resource">Интернет-магазин</div>
+							<h6>Магазин</h6>
+						</a>
+					</div>
+					<div class="col-6">
+						<a href="#">
+							<img src="img/works/Rectangle 47.png" alt="work">
+							<div class="resource">Интернет-магазин</div>
+							<h6>Магазин</h6>
+						</a>
+					</div>
 				</div>
 			</div>
 			<div class="watch__more">Показать еще(нажми меня)</div>
 			<div class="dropdown__menu d-none">
-				
+
 			</div>
 		</div>
 	</div>
@@ -219,30 +254,30 @@
 	<div class="pricelist_background m0a">
 		<div class="pricelist container m0a" >
 			<p style=" ">Виды разработок сайтов</p>
-			<h2><span>Стоимость</span> разработки</h2>
+			<h1><span>Стоимость</span> разработки</h1>
 			<div class="list row">
 				<div class="col-4">
-					<h3>Landing Page</h3>
-					<div class="cost">от <span>42</span> руб.</div>
-					<p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam reprehenderit placeat recusandae deserunt veniam repellat maxime debitis. Nisi, veniam accusantium accusamus quia animi quibusdam ipsum quis nostrum harum repellat, ea?</p>
+					<h3>LANDING PAGE</h3>
+					<div class="cost">от <span>25 000</span> руб.</div>
+					<p class="description">Landing page - одностраничный сайт для представления товара, услуги, личного бренда.</p>
 					<a href="#" class="order_btn">Заказать</a>
 					<div class="order__img-wrap">
 						<img src="img/order_1.png" alt="Order Image" class="order__img">
 					</div>
 				</div>
 				<div class="col-4">
-					<h3>Landing Page</h3>
-					<div class="cost">от <span>42</span> руб.</div>
-					<p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod tempore ea voluptates, laboriosam, dolorem sint exercitationem, harum nostrum alias suscipit repellat neque, quas nisi. Corrupti maiores reiciendis necessitatibus ad, velit?</p>
+					<h3>корпоративный сайт</h3>
+					<div class="cost">от <span>49 000</span> руб.</div>
+					<p class="description">Корпоративный сайт - сайт компании, на котором представлена контактная информация, описание услуг и товаров, сведения о сотрудниках и вакансиях.</p>
 					<a href="#" class="order_btn">Заказать</a>
 					<div class="order__img-wrap">
 						<img src="img/order_2.png" alt="Order Image" class="order__img">
 					</div>
 				</div>
 				<div class="col-4">
-					<h3>Landing Page</h3>
-					<div class="cost">от <span>42</span> руб.</div>
-					<p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque modi ipsa debitis adipisci tempore dolorem distinctio tempora ab vel sunt earum, inventore repellendus quasi, nostrum deleniti, nulla suscipit. Dicta, illum.</p>
+					<h3>Интернет-магазин</h3>
+					<div class="cost">от <span>69 000</span> руб.</div>
+					<p class="description">Интернет-магазин - сервис для оформления заказов и продажи товаров и подключение к маркетплейсам.</p>
 					<a href="#" class="order_btn">Заказать</a>
 					<div class="order__img-wrap">
 						<img src="img/order_3.png" alt="Order Image" class="order__img">
@@ -269,7 +304,7 @@
 							Этап 1
 						</p>
 						<h6 class="slider_title">Сбор информации</h6>
-						<p class="slider_text">Lorem, ipsum dolor sit amet consectetur adipisicing, elit. Distinctio velit iste officia non aliquam ut odit, repellat ex, quam ad sit, minima dolorem. Sequi, eaque delectus velit iusto. Aliquid, dolorem.</p>
+						<p class="slider_text">Для начала работы потребуются исчерпывающие данные о сфере и тонкостях проекта, включая положение дел на рынке у конкурентов. Мы выясним, как реагируют потенциальные клиенты на те или иные предложения, а затем создадим своё, от которого невозможно отказаться.</p>
 					</div>
 				</div>
 				<div class="row">
@@ -281,7 +316,7 @@
 							Этап 2
 						</p>
 						<h6 class="slider_title">Прототипирование сайта</h6>
-						<p class="slider_text">Lorem, ipsum dolor sit amet consectetur adipisicing, elit. Distinctio velit iste officia non aliquam ut odit, repellat ex, quam ad sit, minima dolorem. Sequi, eaque delectus velit iusto. Aliquid, dolorem.</p>
+						<p class="slider_text">Можно сравнить с проектом здания в чертежах архитектора. Это упрощённый вариант отображения всех важных деталей и функций, помогающий визуализировать будущий шедевр и, возможно, внести некоторые коррективы совершенно безболезненно.</p>
 					</div>
 				</div>
 			</div>
@@ -350,17 +385,6 @@
 		</div>
 
 
-
-
-
-
-
-
-
-
-
-
-
 		<div class="footer_background m0a" style="background-image: url(img/Background_footer.png)">
 			<footer class="footer m0a container">
 				<h3 style="font-size: 62px"><span>Предлагаем</span><br/> обсудить ваш сайт</h3>
@@ -391,12 +415,13 @@
 				</div>
 			</footer>
 		</div>
-		<input type="text" id="phone" name="phone" required="required">	
 		<script src="js/jquery-3.5.1.min.js"></script>
 		<script src="js/owl.carousel.min.js"></script>
 		<script src="js/jquery.mask.min.js"></script>
 		<script src="js/jquery.maskedinput.min.js"></script>
 		<script src="js/jquery.magnific-popup.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/bootstrap.bundle.min.js"></script>
 		<script src="js/script.js"></script>
 	</body>
 	</html>
