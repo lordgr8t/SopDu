@@ -129,4 +129,63 @@
 		margin: 0 !important;
 		text-align: center;
 	}
+	.stages_title img{
+		width: 70px;		
+	}
+	.stages_title h3{
+		font-size: 20px;
+		line-height: 20px;
+	}
+	.slider_title{
+		font-size: 15px;
+	}
+	.stage_img {
+		display: none;
+	}
+	.stage_info{
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+	.about-us h3{
+		font-size: 30px;
+		margin: 10px 0;
+	}
+	.about-us_info{
+		display: block;
+	}
+	.about-us_info .col-6{
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+	.owl-next{
+		display: none !important;
+	}
+	.contact_us{
+		line-height: 25px;
+		margin: 15px 0;
+	}
+	.contact_number{
+		display: block;
+	}
+	.contact_number .col-7, .contact_number .col-5{
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+	.contact_number .col-5{
+		margin-top: 10px;
+		max-width: 93%;
+	}
+	.enter__phone {
+		margin-left: -15px;
+	}
+	.pricelist .list{
+		display: block;
+	}
+	.pricelist .list .col-4{
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+	.description {	
+		height: 59px;
+	}
 }

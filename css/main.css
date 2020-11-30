@@ -444,6 +444,7 @@ nav{
 .watch__more:hover{
 	text-decoration: underline;
 	cursor: pointer;
+	transition: 0.5s;
 }
 .dropdown__menu{
 	min-height: 300px;
@@ -510,6 +511,7 @@ nav{
 	background-color: #439FDB;
 	color: #fff;
 	text-decoration: underline;
+	transition: 0.5s;
 }
 /*47n58*/
 .order__img-wrap{
@@ -534,7 +536,6 @@ nav{
 	/*left: 28px;*/
 }
 .dev-stages_bg {
-	height: 988px;
 	max-width: 1730px;
 	background-color: #1C1C1C;
 }
@@ -614,6 +615,7 @@ nav{
 .contact_us:hover{
 	text-decoration: underline;
 	color: #C60000;
+	transition: 0.5s;
 }
 .certificates{
 	display: flex;
@@ -669,6 +671,7 @@ nav{
 .owl-next:active, .owl-next:hover,.owl-next:focus{
 	overflow: none !important;
 	border:none !important;
+	transition: 0.5s;
 }
 .owl-nav{
 	position: relative;
@@ -693,6 +696,7 @@ nav{
 }
 .owl-next:hover{
 	background-color: #c60000 !important;
+	transition: 0.5s;
 }
 .footer_background{
 	background-repeat: no-repeat;
@@ -708,6 +712,7 @@ nav{
 }
 .footer a:hover{
 	text-decoration: underline;
+	transition: 0.3s;
 }
 .footer h3{
 	padding-top: 90px;
@@ -744,6 +749,7 @@ nav{
 }
 .call_me_btn:hover{
 	text-decoration: underline;
+	transition: 0.5s;
 }
 .fourth__block-adaptive{
 	display: none;
