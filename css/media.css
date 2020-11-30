@@ -179,7 +179,7 @@
 	}
 	.contact_number .col-5{
 		margin-top: 10px;
-		max-width: 93%;
+		max-width: 90%;
 	}
 	.enter__phone {
 		margin-left: -15px;
@@ -198,9 +198,14 @@
 		display: block;
 	}
 	.thrd_block .col-6, .thrd_block .col-3,
-	.fourth_block .col-6, .fourth_block .col-3
-	{
+	.fourth_block .col-6, .fourth_block .col-3{
 		flex: 0 0 100%;
 		max-width: 100%;
+	}
+	.contact_number .col-7{
+		width: 100%;
+	}
+	.contact_number {
+		margin-top: 70px;
 	}
 }
